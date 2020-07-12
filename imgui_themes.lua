@@ -20,7 +20,7 @@ EXPORTS = {
         style.GrabRounding = 1.0
         style.WindowPadding = imgui_lib.ImVec2(4.0, 4.0)
         style.FramePadding = imgui_lib.ImVec2(3.5, 3.5)
-        style.ButtonTextAlign = imgui_lib.ImVec2(0.0, 0.5)
+        style.ButtonTextAlign = imgui_lib.ImVec2(0.5, 0.5)
 
         if theme == 1 or theme == nil then
             colors[clr.FrameBg]                = ImVec4(0.16, 0.29, 0.48, 0.54)
@@ -302,7 +302,7 @@ EXPORTS = {
             colors[clr.CheckMark] = ImVec4(1.00, 0.42, 0.00, 0.53)
             colors[clr.SliderGrab] = ImVec4(1.00, 0.42, 0.00, 0.53)
             colors[clr.SliderGrabActive] = ImVec4(1.00, 0.42, 0.00, 1.00)
-            colors[clr.Button] = ImVec4(0.10, 0.09, 0.12, 1.00)
+            colors[clr.Button] = ImVec4(1.00, 0.42, 0.00, 0.53)
             colors[clr.ButtonHovered] = ImVec4(0.24, 0.23, 0.29, 1.00)
             colors[clr.ButtonActive] = ImVec4(0.56, 0.56, 0.58, 1.00)
             colors[clr.Header] = ImVec4(0.10, 0.09, 0.12, 1.00)
